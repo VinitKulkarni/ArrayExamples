@@ -5,6 +5,7 @@ public class ArrayExample1 {
     public static void main(String[] args) {
         int arrayData[] = {1,2,3,9,6,5};
 
+        System.out.println("Elements of array are:");
         for(int i=0; i<arrayData.length; i++){
             System.out.println(i+"th location : " + arrayData[i]);
         }
